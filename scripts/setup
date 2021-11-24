@@ -4,3 +4,5 @@ GOPATH=${PWD}
 go install github.com/revel/revel@v1.0.0
 go install github.com/revel/cmd/revel@v1.0.0
 
+cd moe-pics && go mod tidy
+
